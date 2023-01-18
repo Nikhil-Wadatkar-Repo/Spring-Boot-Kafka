@@ -11,6 +11,7 @@ public class KafkaConsumer {
     private KafkaTemplate<String, String> kafkaTemplate;
     @Autowired
     private MessageBasket messageBasket;
+    //
 
     @KafkaListener(topics = AppConstants.TOPIC_NAME,
             id = AppConstants.GROUP_ID)
