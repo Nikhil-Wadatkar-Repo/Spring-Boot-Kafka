@@ -1,11 +1,9 @@
-package com.nt.demo;
+package com.nt.kafka.producer;
 
+import com.nt.kafka.kafkaConstants.AppConstants;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class KafkaProducer {

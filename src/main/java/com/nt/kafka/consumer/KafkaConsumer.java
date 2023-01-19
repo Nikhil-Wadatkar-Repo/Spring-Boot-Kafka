@@ -1,5 +1,6 @@
-package com.nt.demo;
+package com.nt.kafka.consumer;
 
+import com.nt.kafka.MessageBasket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.core.KafkaTemplate;

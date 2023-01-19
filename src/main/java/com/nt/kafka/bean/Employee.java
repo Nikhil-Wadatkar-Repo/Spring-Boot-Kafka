@@ -1,4 +1,4 @@
-package com.nt.demo;
+package com.nt.kafka.bean;
 
 import java.util.ArrayList;
 import java.util.List;
