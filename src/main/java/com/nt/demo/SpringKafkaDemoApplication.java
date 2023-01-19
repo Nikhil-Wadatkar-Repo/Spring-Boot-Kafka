@@ -11,6 +11,7 @@ public class SpringKafkaDemoApplication  {
 private KafkaProducer kafkaProducer;
     public static void main(String[] args) {
         SpringApplication.run(SpringKafkaDemoApplication.class, args);
+        System.out.println("Kafka-Spring-Boot");
     }
 
 }
